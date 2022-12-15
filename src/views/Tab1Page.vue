@@ -1,5 +1,5 @@
 <template>
-  <ion-page>
+  <ion-page >
     <ion-content :fullscreen="true">
       <ion-fab>
         <ion-fab-button @click="printCurrentPosition()" >
@@ -46,3 +46,7 @@ export default defineComponent({
   },
 });
 </script>
+
+<style>
+
+</style>
